@@ -1,0 +1,103 @@
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+}
+
+clear{
+	clear:both;
+}
+
+.wrapper{
+	width:1000px;
+	margin:0 auto;
+	min-height:auto;
+	box-shadow:#CCC;
+}
+
+.header{
+	border:1px solid #000;
+	width:1000px;
+	height:120px;
+}
+
+.menu{
+
+	width:100%;
+	min-height:50px;
+}
+
+.menu ul{
+
+	min-height:40px;
+	width:100%;
+	list-style:none;
+}
+
+.menu ul li{
+	line-height:40px;
+	margin-left:20px;
+	float:left;
+}
+
+.menu ul li a{
+	color:#000;
+	text-decoration:none;
+}
+
+.menu a:hover{
+	text-decoration:underline;
+	color:#00F;
+}
+
+.content{
+
+	width:100%;
+	min-height:600px;
+	height:auto;
+}
+
+.top{
+	float:left;
+	min-height:600px;
+	height:auto;
+
+
+}
+
+
+.bot{
+	float:left;
+	min-height:600px;
+	height:auto;
+
+}
+.feildContent
+{
+	width:98%;
+	border: 2px solid #dce3ea;
+}
+
+
+
+.footer{
+	margin-top:25px;
+	border: 1px solid #000;
+	width:100%;
+	text-align:center;
+	color:gray;
+}
+
+table{
+	border-collapse:collapse;
+}
+	
+table img 
+{
+	width: 100px;
+}
+nav
+{
+	width:-24px;
+}

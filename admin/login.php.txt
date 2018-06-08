@@ -1,0 +1,40 @@
+﻿<?php
+	ob_start();
+	session_start();
+	include('conn.php');
+	if(isset($_POST['dangnhap'])){
+		$username=$_POST['username'];
+		$password=$_POST['password'];
+		$sql="select * from nguoi_dung where ma_loai_nguoi_dung=1 and ten_dang_nhap='$username' and mat_khau='$password' limit 1";
+		$stmt = $db->prepare($sql);
+		$stmt->execute();
+		$data=$stmt->fetch(PDO::FETCH_ASSOC);
+		if($data>0){
+			$_SESSION['dangnhap']=$username;
+			header('location:index.php');
+		}else{
+			header('location:login.php');
+		}
+	}
+	
+?>
+<form method="post">
+<table width="640" border="0" style="margin:auto; margin-top:100px">
+  <tr>
+    <td colspan="2"><div align="center"><h1>â</h1></div></td>
+  </tr>
+  <tr>
+    <td width="280"><div align="right">Username:</div></td>
+    <td width="350"><input type="text" name='username' width="250px"/></td>
+  </tr>
+  <tr>
+    <td><div align="right">Password:</div></td>
+    <td><input type="password" name='password' width="250px"/></td>
+  </tr>
+  <tr>
+    <td colspan="2"><div align="center">
+      <button name="dangnhap">Đăng nhập</button>
+    </div></td>
+  </tr>
+</table>
+</form>

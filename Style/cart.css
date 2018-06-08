@@ -1,0 +1,119 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+.lighter-text {
+  color: #ABB0BE;
+}
+ 
+.main-color-text {
+  color: #6394F8;
+}
+
+ 
+.container {
+  margin: auto;
+  width: 210px;
+}
+ 
+.badge {
+  background-color: #d3e0fa;
+  border-radius: 10px;
+  color: white;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 1;
+  padding: 3px 7px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+ 
+.shopping-cart {
+  margin: 5px 0;
+  float: right;
+  background: white;
+  width: 250px;
+  position: relative;
+  border-radius: 3px;
+  padding: 5px;
+  display: none;
+  border: 1px solid #ac6910;
+  border-radius: 10px;
+  
+}
+.shopping-cart .shopping-cart-header {
+	width: 100%;
+  border-bottom: 1px solid #E8E8E8;
+  padding-bottom: 5px;
+}
+.shopping-cart .shopping-cart-header .shopping-cart-total {
+  float: right;
+}
+.shopping-cart .shopping-cart-items {
+  padding-top: 10px;
+  padding-left: 5px;
+  overflow: auto; 
+  height-max: 250px;
+}
+.shopping-cart .shopping-cart-items li {
+  margin-bottom: 18px;
+}
+.shopping-cart .shopping-cart-items img {
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-right: 12px;
+}
+.shopping-cart .shopping-cart-items .item-name {
+  display: block;
+  padding-top: 10px;
+  font-size: 16px;
+}
+.shopping-cart .shopping-cart-items .item-price {
+  color: #6394F8;
+  margin-right: 8px;
+}
+.shopping-cart .shopping-cart-items .item-quantity {
+  color: #ABB0BE;
+}
+ 
+.shopping-cart:after {
+  bottom: 100%;
+  left: 89%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-bottom-color: white;
+  border-width: 8px;
+  margin-left: -8px;
+}
+ 
+.cart-icon {
+  color: #515783;
+  font-size: 24px;
+  margin-right: 7px;
+  float: left;
+}
+ 
+.button {
+  background: #fd9a09;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  display: block;
+  border-radius: 3px;
+  font-size: 16px;
+  margin: 25px 0 15px 0;
+}
+.button:hover {
+  background: #f2c584;
+}
+ 
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

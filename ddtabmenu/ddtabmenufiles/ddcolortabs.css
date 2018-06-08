@@ -1,0 +1,75 @@
+.ddcolortabs{
+padding: 0;
+width: 100%;
+background: transparent;
+voice-family: "\"}\"";
+voice-family: inherit;
+}
+
+.ddcolortabs ul{
+font: normal 11px Arial, Verdana, sans-serif;
+margin:0;
+padding:0;
+list-style:none;
+}
+
+.ddcolortabs li{
+display:inline;
+margin:0 2px 0 0;
+padding:0;
+text-transform:uppercase;
+}
+
+
+.ddcolortabs a{
+margin-right: 10px;
+float:left;
+color: white;
+background: #fe980f  no-repeat left top;
+margin:0 2px 0 0;
+padding:0 0 1px 3px;
+text-decoration:none;
+letter-spacing: 1px;
+}
+
+.ddcolortabs a span{
+float:left;
+display:block;
+padding: 6px 8px 3px 7px;
+}
+
+.ddcolortabs a span{
+float:none;
+}
+
+.ddcolortabs a:hover:not(#username){
+background-color: rgb(77, 140, 177);
+}
+
+.ddcolortabs a:hover span{
+background-color:  rgb(77, 140, 177);
+}
+
+.ddcolortabs a.current, #ddcolortabs a.current span{ /*currently selected tab*/
+background-color:  rgb(77, 140, 177);
+}
+
+.ddcolortabsline{
+clear: both;
+padding: 0;
+width: 100%;
+height: 8px;
+line-height: 8px;
+background: #3A6076;
+border-top: 1px solid; /*Remove this to remove border between bar and tabs*/
+}
+
+.tabcontainer{
+clear: left;
+width:95%; /*width of 2nd level sub menus*/
+height:1.5em; /*height of 2nd level sub menus. Set to largest's sub menu's height to avoid jittering.*/
+}
+
+.tabcontent{
+display:none;
+}

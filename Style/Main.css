@@ -1,0 +1,395 @@
+﻿body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: #DCE3EA;
+    background-image: url('../images/Page-BgTexture.jpg');
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-position: bottom left;
+}
+
+
+#container {
+    border-radius: 10px;
+    border: 2px solid #6B6F72;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0px;
+    width: 970px;
+    box-shadow: 5px 5px 5px 5px #6B6F72;
+    background-color: white ;
+}
+
+.dot {
+    width: 10px;
+    padding: 0 5px;
+}
+
+header {
+    background-color: #fe980f;
+    height: 150px;
+    border-radius: 10px 10px 0 0;
+}
+
+    header div {
+        float: left;
+    }
+
+    header #logo {
+        width: 18%;
+        text-align: center;
+        background-color: #fe980f;
+        margin-top: 30px;
+        height: 120px;
+        border-radius: 10px 0 0 0;
+    }
+
+        header #logo img {
+            width: 80%;
+        }
+
+        header #logo h1 {
+            color: white;
+            margin-top: 0px;
+        }
+
+    header #flashHeader {
+        width: 60%;
+        height: 150px;
+    }
+
+        header #flashHeader img {
+            width: 100%;
+            height: 100%;
+        }
+
+    .feildBasic {
+        border-radius: 10px;
+        padding: 5px;
+        background-color: white;
+        width: 90%;
+        margin: 10px;
+    }
+
+         .feildBasic h4 {
+            background-color: orange;
+            margin-top: 0px;
+            width: 96%;
+            padding: 1%;
+            border-radius: 10px;
+             margin-bottom: 5px;
+			 cursor: pointer;
+        }
+		.feildBasic h4:hover{
+			background-color: #fbca70;
+			}
+
+.clear {
+    clear: both;
+}
+
+nav {
+    background-color: #fcd89c;
+    width: 100%;
+}
+
+    nav .ddcolortabs {
+        padding: 10px;
+        height: 20px;
+        padding-bottom: 5px;
+    }
+    nav .ddcolortabs li
+    {
+        text-transform: none;
+    }
+    nav .ddcolortabs a
+    {
+        border-top:2px solid rgb(27, 85, 119);
+        border-left:2px solid rgb(27, 85, 119);
+        border-right:2px solid rgb(27, 85, 119);
+        border-radius: 5px 5px 0 0;
+        margin-right:3px;
+        
+    }
+
+
+article {
+    width: 73%;
+    float: left;
+}
+
+    article .feildContent
+    {
+        background-color: #FEFEFE;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 2px solid #fdd39a;
+    }
+    article .feildContent h2,h3
+    {
+        margin: 5px;
+        margin-left:0px;
+        color:#d98f00;  
+    }
+
+    article #spBanMoi {
+
+        height: fit-content;
+    }
+
+  
+
+    article #spBanChay #hienThiSP {
+        width: 100%;
+		overflow-x:auto;
+    }
+
+#hienThiSPBC {
+    margin-top: 10px;
+}
+
+#hienThiSPMoi {
+    width: 100%;
+    max-height:650px;
+    overflow: auto;
+}
+
+#hienThiSPBC .single-products {
+    margin-right: 20px;
+}
+
+#hienThiSPMoi .single-products {
+    margin: 4px;
+
+}
+/**/
+#hienThiSPMoi2 {
+    width: 100%;
+    max-height:650px;
+    overflow: auto;
+} 
+
+#hienThiSPMoi2 .sanPham {
+    margin: 4px;
+
+}
+/**/  
+
+.sanPham {
+    border: 4px solid #fe980f;
+    width: 145px;
+    float: left;
+    margin: 0 4px 0 5px;
+	position: relative;
+}
+
+    .sanPham .thongTinSp {
+        background-color: #f9d7a9;
+        color: #3A6076;
+        text-align: center;
+        padding: 5px;
+        height: 50px;
+        overflow-x: auto;
+        font-size: 13px;
+    }
+
+    .sanPham img {
+        width: 145px;
+        height: 100px;
+        text-align: center;
+    }
+
+    .sanPham .Gia {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0 10px 0;
+    }
+    .sanPham a
+    {
+        text-decoration: none;
+    }
+	
+/*hover*/
+
+
+.single-products {
+	border: 4px solid #fe980f;
+    width: 145px;
+	height:100%;
+    float: left;
+    margin: 0 4px 0 5px;
+  	position: relative;
+}
+
+.productinfo .gia{
+	width: 100%;
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+.product-overlay .gia{
+	color: #fff;
+	width: 100%;
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+
+.productinfo .thongTinSanPham{
+  background-color: #f9d7a9;
+  color: #3A6076;
+  text-align: center;
+  padding: 5px;
+  height: 50px;
+  font-size: 13px;
+}
+
+.productinfo img{
+  width: 145px;
+  height: 100px;
+  text-align: center;
+}
+
+.productinfo{
+ position:relative;
+}
+
+.product-overlay {
+	overflow-x: auto;
+  background:#FE980F;
+  top: 0;
+  display: none;
+  height: 0;
+  position: absolute;
+  transition: height 500ms ease 0s;
+  width: 100%;
+  display: block;
+  opacity:;
+}
+
+.single-products:hover .product-overlay {
+  display:block;
+  height:100%;
+}
+
+
+.product-overlay .overlay-content {
+  bottom: 0;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.product-overlay .thongTinSanPham{
+  background-color: #f9d7a9;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  height:150px;
+  overflow-x: auto;
+  font-size: 13px;
+}
+
+/*hover*/
+ 
+aside {
+    float: right;
+    width: 27%;
+}
+
+
+    aside .feildBasic {
+        background-color: #f9e5c9;
+        border: 2px solid #fdd39a;
+        margin: 10px 0 0 0;
+        }
+#ListProductTitle {
+    padding: 5px;
+    margin: 0px;
+}
+    .titleProduct  {
+        border: 2px solid #fe980f;
+        background-color: #f9e1bf;
+        padding: 10px;
+        margin-bottom: 1px;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+    .titleProduct:hover
+    {
+        background-color: white;
+    }
+    
+a {
+    text-decoration: none;
+    color:blue;
+}
+  a:hover{
+    text-decoration: underline;
+}
+.ListProduct {
+    background-color: white;
+    padding: 20px;
+}
+.ListProduct li {
+    padding: 5px 5px 5px 0;
+}
+
+
+footer 
+{
+    text-align: center;
+    background-color:#bdd9ec;
+    margin-top:  10px;
+    padding:5px;
+    border-radius: 0 0 10px 10px ;
+}
+    #btnSearch
+    {
+        width: 25px; 
+        height: 22px;
+        border: none;
+        cursor: pointer;
+        margin-left: 5px; 
+    } 
+    #textSearch
+    {
+        width:180px;    
+    }
+    .btn    
+    {
+        border-radius: 4px;
+        background-color: #5aa9dd;
+        border: none;
+        cursor: pointer;
+        color:#3A6076;
+        padding: 10px;
+        color:white;
+    }
+    .btn:hover
+    {
+        background-color:rgb(39, 169, 230);
+        text-decoration: none;
+    }
+    #truyCap td 
+    {
+        width:70px;
+        padding:5px;
+    }
+
+    #username:hover span
+    {
+        background-color: none;
+    }
+    #noiDungTinTuc table td img
+    {
+        width: 100px;
+        margin-top:10px;
+    }
+     #noiDungTinTuc table td 
+     {
+        padding-top: 10px;
+     }

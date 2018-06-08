@@ -1,0 +1,73 @@
+table .nameCol td {
+    border-bottom: 2px solid  #868e96 !important;
+    }
+    table .chucNang td {
+        border-top: 2px solid  #868e96 !important;
+        }
+    table .rowHang td {
+        border-top: 1px solid  #868e96 !important;
+        }
+
+    #gioHang table td
+    {
+        width:100px;
+        padding:5px;
+    }
+    #gioHang table .tenSP
+    {
+        width:250px;
+    }
+    #gioHang #tableCheckOut
+    {
+        margin:auto;
+    }
+
+    #gioHang #tableCheckOut .titleText{
+        width:150px;
+    }
+    #gioHang #tableCheckOut .textinput
+    {
+        width:250px;
+    }
+
+    #gioHang table .dongia
+    {
+        max-width:50px;
+    }
+
+    #gioHang table .STT
+    {
+        width:40px;
+    }
+
+    .Xoa
+    {
+        margin-left:10px;
+    }
+    .nameCol h4, .chucNang h4{
+        margin-top:0px;
+        margin-bottom:0px;
+        color: #868e96 !important;
+        
+    }
+    h3{
+        margin-top:0px;
+        margin-bottom:0px;
+        color: white;
+        
+    }
+    .tenSP img
+    {
+        width:50px;
+        float:left;
+        margin-right:10px;
+    }
+    .tenSP div 
+    {
+        float:left;
+        padding:5px;
+    }
+    .tenSP 
+    {
+        padding:10px;
+    }

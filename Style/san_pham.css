@@ -1,0 +1,61 @@
+.Mua
+{
+    padding:0 10px 10px 10px;
+     text-align:center;
+}
+.Mua input
+{
+    max-width:50px; 
+    border: inset
+}
+.Mua .btnMua    
+{
+    border-radius: 4px;
+    background-color: #5aa9dd;
+    border: none;
+    cursor: pointer;
+    color:#3A6076;
+    padding: 5px;
+    color:white;
+}
+.Mua .btnMua:hover
+{
+    background-color:rgb(39, 169, 230);
+    text-decoration: none;
+}
+#anhSanPham
+{
+    float:left;
+    margin-right:0px;
+    margin-left:0px;
+    height: 200px;
+    width:29%;
+    border-radius: 5px 0 0 5px;
+}
+#anhSanPham img
+{
+    width:190px;
+    max-height: 200px;
+}
+#chiTietSP
+{   margin-left:0px;
+    float:left;
+    width: 63%;
+    margin-right: 0px;
+    height: 209px;
+    border-radius: 0 5px  5px 0;
+    border-left:0px;
+    padding:5px;
+}
+#chiTietSP h3
+{   margin:0px;
+     background-color:#bdd9ec;
+     padding:10px;
+}
+#chiTietSP #moTa
+{
+    margin-top: 5px;
+    max-height: 130px;
+    overflow: auto;
+    margin-bottom:5px;
+}

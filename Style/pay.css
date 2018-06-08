@@ -1,0 +1,18 @@
+/* CSS Document */
+.account-detail {
+    position: relative;
+    background: white;
+    padding: 4px 12px 12px 12px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid rgba(0,0,0,0.09);
+}
+.account-detail .line-1, .account-detail .line-edit-1 {
+    border-bottom: 1px solid rgba(0,0,0,0.09);
+    padding-bottom: 8px;
+}
+.L14 {
+    font-family: -apple-system, 'Helvetica Neue', Helvetica, "Shopee Roboto Regular", 'RobotoRegular', 'Droid Sans', Arial, sans-serif;
+    font-size: 1.16667rem;
+    font-weight: normal;
+    font-weight: 300;
+}
